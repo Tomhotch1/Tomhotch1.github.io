@@ -1,5 +1,6 @@
 ### Enhancement Three: Databases
 [Original Project Files] (https://github.com/Tomhotch1/Tomhotch1.github.io/tree/main/EnhancementThree/Original%20Project%20Files)
+[Enhanced Project Files] (https://github.com/Tomhotch1/Tomhotch1.github.io/tree/main/EnhancementThree/Enhanced%20Files)
 
 For the final enhancement category of databases, I have chosen to work on the final project from CS-340: Client/Server Development.  This project consisted of using the Python library PyMongo to interface with a MongoDB database running on a school virtual machine.  The code itself featured two parts: a class that connected to and queried the database, and a file that utilized these features to create a simple online dashboard using the plotly dash library.  The dataset was from information about animals taken into shelters in Austin, Texas.  This was a highly practical project, as it involved using database programming techniques to analyze data and present some data visualizations in a concise manner.  Since I ultimately hope to work as a retail inventory analyst, this is closely aligned with my career goals. 
 
