@@ -3,39 +3,23 @@ This artifact was originally created as a part of the first core Computer Scienc
 
 The enemy movement is simple, choosing a random adjacent room to move to each time the player moves after three turns.  This could continue to be refined, perhaps adding multiple difficulty settings.  The enemy could move towards the player or randomly, with the chance for each being modifiable to adjust difficulty.  To take this even further, the enemy player could even use machine learning to predict likely player movements.  Most of my time for this enhancement was spent working on implementing the MapGenerator class.  I first worked on the high-level algorithm, and decided to do the following: 
 
-    Read information from CSV file and import it to a list. 
-
-    Shuffle the list to add additional variety. 
-
-    Create an empty square 2d array to represent the map. 
-
-    Update a random edge cell (that isn’t a corner) with the name and item information for the starting room.  Remove this entry from the information list. 
-
-    Update the inner square corner cell that is furthest away from the starting room with the enemy’s starting room (an Escape Pods room) information, remove that entry from the list. 
-
-    Add up to three more Escape Pods in other random inner square corners and remove those entries from the list. 
-
-    Add the first teleporter room to the map adjacent to a random Escape Pods room, if any, and remove their information from the list. 
-
-    Add remaining teleporters one at a time.  Place them in the cell with the highest net distance from all other teleporters. 
-
-    Convert the remaining room information into a dictionary of room types, using a set of keywords in the names. 
-
-    Add any remaining room information to a “Generic” room type group. 
-
-    Select a non-generic group and add the first room to a random empty inner square cell. 
-
-    One at a time, add the remaining rooms for the group in an empty cell adjacent to the group's existing rooms. 
-
-    If there are no remaining adjacent empty cells, shift the remaining rooms in the group to the generic group. 
-
-    Repeat steps 11 through 13 for remaining non-generic group types. 
-
-    One at a time, add rooms in the generic group to a random empty inner square cell until either the rooms are exhausted, or there are no more available empty cells. 
-
-    Fill all remaining empty inner square cells with hallways.  These are rooms that are navigable but contain no items. 
-
-    Lastly, for each room, update the room’s adjacent rooms list by finding its neighbors. 
+1. Read information from CSV file and import it to a list. 
+2. Shuffle the list to add additional variety. 
+3. Create an empty square 2d array to represent the map. 
+4. Update a random edge cell (that isn’t a corner) with the name and item information for the starting room.  Remove this entry from the information list. 
+5. Update the inner square corner cell that is furthest away from the starting room with the enemy’s starting room (an Escape Pods room) information, remove that entry from the list. 
+6. Add up to three more Escape Pods in other random inner square corners and remove those entries from the list. 
+7. Add the first teleporter room to the map adjacent to a random Escape Pods room, if any, and remove their information from the list. 
+8. Add remaining teleporters one at a time.  Place them in the cell with the highest net distance from all other teleporters. 
+9. Convert the remaining room information into a dictionary of room types, using a set of keywords in the names. 
+10. Add any remaining room information to a “Generic” room type group. 
+11. Select a non-generic group and add the first room to a random empty inner square cell. 
+12. One at a time, add the remaining rooms for the group in an empty cell adjacent to the group's existing rooms. 
+13. If there are no remaining adjacent empty cells, shift the remaining rooms in the group to the generic group. 
+14. Repeat steps 11 through 13 for remaining non-generic group types. 
+15. One at a time, add rooms in the generic group to a random empty inner square cell until either the rooms are exhausted, or there are no more available empty cells. 
+16. Fill all remaining empty inner square cells with hallways.  These are rooms that are navigable but contain no items. 
+17. Lastly, for each room, update the room’s adjacent rooms list by finding its neighbors. 
 
 The key part of this algorithm is that while it contains several decision points that are decided randomly, there are no cases were placing a room in one location will invalidate the placement of prior rooms or cause the map generator to enter a state where it is unable to place a future room.  This limits the run time and memory usage of the program by avoiding processing unnecessary instructions.   
 
