@@ -1,4 +1,9 @@
 ### Enhancement Two: Algorithms and Data Structures
+###### Project Files:
+- [Original Project Files](https://github.com/Tomhotch1/Tomhotch1.github.io/tree/main/EnhancementTwo/Original%20Project%20Files)
+- [Enhanced Project Files](https://github.com/Tomhotch1/Tomhotch1.github.io/tree/main/EnhancementTwo/Enhanced%20Files)
+
+###### Project Narrative:
 This artifact was originally created as a part of the first core Computer Science course I took at SNHU, Introduction to Scripting.  It was the final project, which required the creation of a text-based game.  For enhancement one, I worked to substantially improve the structure of the project by breaking it up into multiple classes using the principles of object-oriented programming.  I also bolstered documentation, normalized the style, and worked to ensure functions were limited to fulfilling a single purpose.  Lastly, I added some functionality in the form of a map printing feature, that illustrated the player’s location and some status information.  To continue to extend this project further, I added two additional features for the data structures and algorithms enhancement.  These are movements for the enemy character, and a procedurally generated map.   
 
 The enemy movement is simple, choosing a random adjacent room to move to each time the player moves after three turns.  This could continue to be refined, perhaps adding multiple difficulty settings.  The enemy could move towards the player or randomly, with the chance for each being modifiable to adjust difficulty.  To take this even further, the enemy player could even use machine learning to predict likely player movements.  Most of my time for this enhancement was spent working on implementing the MapGenerator class.  I first worked on the high-level algorithm, and decided to do the following: 
