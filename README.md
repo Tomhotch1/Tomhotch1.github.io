@@ -14,6 +14,8 @@ Southern New Hampshire University
 
 
 ### Enhancement Two: Algorithms and Data Structures
+[Enhancement Twohree Narrative](EnhancementTwo/NarrativeTwo.md)
 
 
 ### Enhancement Three: Databases
+[Enhancement Three Narrative](EnhancementThree/NarrativeThree.md)
