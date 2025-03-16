@@ -10,12 +10,12 @@ Southern New Hampshire University
 
 
 ### Enhancement One: Software Design and Engineering
-[Enhancement One Narrative](EnhancementOne/Narrative One.md)
+[Enhancement One Narrative](EnhancementOne/NarrativeOne.md)
 
 
 ### Enhancement Two: Algorithms and Data Structures
-[Enhancement Two Narrative](EnhancementTwo/Narrative Two.md)
+[Enhancement Two Narrative](EnhancementTwo/NarrativeTwo.md)
 
 
 ### Enhancement Three: Databases
-[Enhancement Three Narrative](EnhancementThree/Narrative Three.md)
+[Enhancement Three Narrative](EnhancementThree/NarrativeThree.md)
