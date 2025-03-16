@@ -1,0 +1,27 @@
+Name,North,South,East,West,Item
+Planetary Elevator,Engine Room 1,None,None,None,None
+Engine Room 1,Shield Generator,None,Engineers' Dorm,None,Fuel Cell
+Shield Generator,Officer's Dorm,Engine Room 1,Teleporter 1,None,Overshield
+Officer's Dorm,Bridge,Shield Generator,Mess Hall,None,Uniform
+Bridge,Captain's Quarters,Officer's Dorm,Infirmary,None,Keycard
+Captain's Quarters,None,Bridge,Officer's Lounge,None,Access Code
+Engineers' Dorm,Teleporter 1,None,Armory,Engine Room 1,Uniform
+Teleporter 1,Mess Hall,Engineers' Dorm,Laboratory,Shield Generator,None
+Mess Hall,Infirmary,Teleporter 1,Communications,Officer's Dorm,Nutrition Pack
+Infirmary,Officer's Lounge,Mess Hall,Server Room 1,Bridge,Med Kit
+Officer's Lounge,None,Infirmary,Escape Pods 1,Captain's Quarters,None
+Armory,Laboratory,None,Gunnery,Engineers' Dorm,Mini Generator
+Laboratory,Communications,Armory,Crew Dorm 1,Teleporter 1,Exoskeleton
+Communications,Server Room 1,Laboratory,Crew Lounge,Mess Hall,Transport Log
+Server Room 1,Escape Pods 1,Communications,Laser Room,Infirmary,AI Data
+Escape Pods 1,None,Server Room 1,Teleporter 2,Officer's Lounge,Respirator
+Gunnery,Crew Dorm 1,None,Teleporter 3,Armory,Blaster
+Crew Dorm 1,Crew Lounge,Gunnery,Escape Pods 2,Laboratory,Transponder
+Crew Lounge,Laser Room,Crew Dorm 1,Crew Dorm 2,Communications,Nutrition Pack
+Laser Room,Teleporter 2,Crew Lounge,Server Room 2,Server Room 1,Laser Focus
+Teleporter 2,None,Laser Room,Engine Room 2,Escape Pods 1,None
+Teleporter 3,Escape Pods 2,None,None,Gunnery,None
+Escape Pods 2,Crew Dorm 2,Teleporter 3,None,Crew Dorm 1,Respirator
+Crew Dorm 2,Server Room 2,Escape Pods 2,None,Crew Lounge,Transponder
+Server Room 2,Engine Room 2,Crew Dorm 2,None,Laser Room,AI Data
+Engine Room 2,None,Server Room 2,None,Teleporter 2,Fuel Cell

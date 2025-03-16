@@ -1,0 +1,27 @@
+﻿Name,North,South,East,West,Teleporter,Item
+Shield Generator,None,Engine Room 1,Crew Dorm 2,None,FALSE,Overshield
+Crew Dorm 2,None,Teleporter  1,Captain's Quarters,Shield Generator,FALSE,Transponder
+Captain's Quarters,None,Bridge,Mess Hall,Crew Dorm 2,FALSE,Access Code
+Mess Hall,None,None,Teleporter 2,Captain's Quarters,FALSE,Nutrition Pack
+Teleporter 2,None,Officer's Dorm,Escape Pods 2,Mess Hall,TRUE,None
+Escape Pods 2,None,Engine Room 2,None,Teleporter 2,FALSE,Respirator
+Earth Transporter,None,None,Engine Room 1,None,FALSE,None
+Engine Room 1,Shield Generator,Engineer's Dorms,Teleporter 1,None,FALSE,Fuel Cell
+Teleporter 1,Crew Dorm 2,Armory,Bridge,Engine Room 1,TRUE,None
+Bridge,Captain's Quarters,None,Server Room 1,Teleporter 1,FALSE,Keycard
+Server Room 1,None,Infirmary,Officer's Dorm,Bridge,FALSE,AI Data
+Officer's Dorm,Teleporter 1,Laboratory,None,Server Room 1,FALSE,Uniform
+Engine Room 2,Escape Pods 2,Officer's Lounge,None,None,FALSE,Fuel Cell
+Engineer's Dorms,Engine Room 1,Escape Pods 1,None,None,FALSE,Uniform
+Armory,Teleporter 2,None,None,None,FALSE,Blaster
+Communications,None,Teleporter 3,Infirmary,None,FALSE,Transport Log
+Infirmary,Server Room 1,Crew Dorm 1,Laboratory,Communications,FALSE,Medicine
+Laboratory,Officer's Dorm,Laser Room,Officer's Lounge,Infirmary,FALSE,Exoskeleton
+Officer's Lounge,Engine Room 2,Server Room 2,Gunnery,Laboratory,FALSE,None
+Gunnery,None,None,None,Officer's Lounge,FALSE,None
+Escape Pods 1,Engineer's Dorms,None,Crew Lounge,None,FALSE,Respirator
+Crew Lounge,None,None,Teleporter 3,Escape Pods 1,FALSE,Nutrition Pack
+Teleporter 3,Communications,None,Crew Dorm 1,Crew Lounge,TRUE,None
+Crew Dorm 1,Infirmary,None,Laser Room,Teleporter 3,FALSE,Transponder
+Laser Room,Laboratory,None,Server Room 2,Crew Dorm 1,FALSE,Laser Focus
+Server Room 2,Officer's Lounge,None,None,Laser Room,FALSE,AI Data
