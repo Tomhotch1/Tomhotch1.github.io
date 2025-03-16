@@ -5,4 +5,4 @@ In creating this artifact, the primary course outcome I want to showcase is “D
 
 Overall, I enjoyed my time spent working on this artifact.  It was a good chance to work with Python again, especially given the relevance of this language in my planned career path of data analysis.  It also proved valuable to work on something that required a bit freer thinking and personal design, as I felt like many of the higher-level computer science courses were fairly rigid in how they presented their concepts.  In terms of challenges this project presented, the largest was the addition of the graphical map printing function.  I debated what data structures and information should be used to solve this task and feel as though I ultimately landed on a reasonable and efficient solution.  I look forward to spending more time with this project for the second enhancement. 
 
-[Portfolio Home](./README.md)
+[Portfolio Home](../README.md)
