@@ -8,6 +8,8 @@ This page exists as a showcase of the learning and work that I’ve done during 
 
 On a more granular level, I was introduced to data structures and algorithms as the backbone of software development.  At the end of the day, efficiently storing and processing information is necessary in every program.  One way I worked with these concepts was by using a sample data set and creating a number of data structures to store the data in; including an array, a linked list, a binary tree, and a hash map.  For each data structure, I implemented standard functions to insert, delete, update, traverse, and sort the data.  The most interesting data structure I studied was hash maps.  When implemented to avoid collisions, these powerful tools allow for constant time insertion, deletion, and search.  The last key computer science concept I was intoduced to is databases.  These are like specialized data structures that use storage, as opposed to memory, to efficiently store massive amounts of data.  Here, I learned about the difference between structured and unstructured databases, as well as variations on the technology like data warehouses and data lakes.
 
+In This portfolio, I've included three projects that highlight my learning and acquired skills in Computer Science and data analytics.  Each project includes work I completed as a part of an earlier course, as well as an enhancement made to demonstrate my ability within the subcategory of software design and engineering, algorithms and data structures, and databases.  I've also given a narrative explanation of each project and its corresponding enhancements.
+
 
 ### Code Review
 
