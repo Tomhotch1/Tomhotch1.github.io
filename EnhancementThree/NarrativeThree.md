@@ -5,7 +5,9 @@
 
 
 ###### Dashboard Sample Images
-[tables](EnhancementThree/Enhanced%20Files/dash-1.PNG)
+![Image](https://github.com/user-attachments/assets/6418e102-da34-4d2e-b80c-344461aae238)
+![Image](https://github.com/user-attachments/assets/7008c461-e4a4-4358-9635-a86254dbbf61)
+![Image](https://github.com/user-attachments/assets/db05975d-abe4-4027-a5e8-da0b31ab7238)
 
 ###### Project Narrative:
 For the final enhancement category of databases, I have chosen to work on the final project from CS-340: Client/Server Development.  This project consisted of using the Python library PyMongo to interface with a MongoDB database running on a school virtual machine.  The code itself featured two parts: a class that connected to and queried the database, and a file that utilized these features to create a simple online dashboard using the plotly dash library.  The dataset was from information about animals taken into shelters in Austin, Texas.  This was a highly practical project, as it involved using database programming techniques to analyze data and present some data visualizations in a concise manner.  Since I ultimately hope to work as a retail inventory analyst, this is closely aligned with my career goals. 
